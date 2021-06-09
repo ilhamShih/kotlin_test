@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        val linearLayout = findViewById<View>(R.id.layout22) as LinearLayout
+        val linearLayout = findViewById<View>(R.id.layout) as LinearLayout
         val textView = TextView(this)
 
         val  person = arrayListOf<User>(
